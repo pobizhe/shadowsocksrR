@@ -1,6 +1,6 @@
 ### About This Project
 
-Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
+[Shadowsocks](http://www.shadowsocks.org) is a fast tunnel proxy that helps you bypass firewalls.
 
 ### Quick Navigation
 
