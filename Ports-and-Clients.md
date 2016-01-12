@@ -4,8 +4,8 @@ Please open an issue to add to this list.
 
 #### Windows
 
-* [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-csharp) - Shadowsocks client for Windows - [Download](https://github.com/shadowsocks/shadowsocks-csharp/releases)
-* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/librehat/shadowsocks-qt5/releases)
+* [Shadowsocks for Windows](https://github.com/shadowsocks/shadowsocks-windows) - Shadowsocks client for Windows - [Download](https://github.com/shadowsocks/shadowsocks-windows/releases)
+* [shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5) - Powered by Qt - [Download](https://github.com/shadowsocks/shadowsocks-qt5/releases)
 
 #### OS X
 
@@ -16,7 +16,7 @@ Please open an issue to add to this list.
 * [shadowsocks](https://github.com/shadowsocks/shadowsocks) - Python version
 * [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) - C libev version
 * [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - Go version
-* [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5) - Qt GUI client frontend
+* [shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5) - Qt GUI client
 * [fukei](https://github.com/thomashuang/Fukei) - Python Tornado version
 
 #### iOS
@@ -50,8 +50,7 @@ Please open an issue to add to this list.
 #### Experimental
 
 * [shadowsocks-manyuser](https://github.com/mengskysama/shadowsocks/tree/manyuser) - User management system for Shadowsocks server
-* [libQtShadowsocks](https://github.com/librehat/libQtShadowsocks) - C++/Qt version library and shadowsocks-libqss, a server based on the library
-* [shadowsocks-ruby](https://github.com/Sen/shadowsocks-ruby) Ruby version
+* [libQtShadowsocks](https://github.com/shadowsocks/libQtShadowsocks) - C++/Qt version library and shadowsocks-libqss, a server based on the library
 * [shadowsocks-chromeapp](https://github.com/clowwindy/shadowsocks-chromeapp) - Chrome App
 * [shadowsocks-haskell](https://github.com/rnons/shadowsocks-haskell) - Haskell version
 * [shadowsocks-gtk](https://github.com/apporc/shadowsocks-gtk) - Python GTK version
@@ -59,6 +58,7 @@ Please open an issue to add to this list.
 
 #### Deprecated or maintenance discontinued
 
+* [shadowsocks-ruby](https://github.com/Sen/shadowsocks-ruby) Ruby version
 * [shadowsocks-nodejs](https://github.com/shadowsocks/shadowsocks-nodejs) - Node.js version
 * [shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) - Powered by node-webkit - [Download](https://sourceforge.net/projects/shadowsocksgui/files/dist/)
 * [shadowsocks-dotcloud](https://github.com/clowwindy/shadowsocks-dotcloud) - Dotcloud PAAS version. **Not compatible with other versions**
