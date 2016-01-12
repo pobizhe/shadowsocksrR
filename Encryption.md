@@ -1,38 +1,13 @@
 Supported Ciphers
 =================
 
-                   |  Python   |    libev    |     Go    |  node.js
+                   |  Python   |    libev    |     Go    |     Qt
 ------------------ | --------- | ----------- | ----------| ---------
-OpenSSL (AES, etc) |     Y     |      Y      |      Y    |     Y
+SSL library (AES, etc) |     Y     |      Y      |      Y    |     Y
 RC4-MD5            |     Y     |      Y      |      Y    |     Y
-Salsa20, Chacha20  |     Y     |      Y      |      N    |     N
+Salsa20, Chacha20  |     Y     |      Y      |      Y    |     Y
 
-- aes-256-cfb: Default
-- aes-128-cfb
-- aes-192-cfb
-- aes-256-ofb
-- aes-128-ofb
-- aes-192-ofb
-- aes-128-ctr
-- aes-192-ctr
-- aes-256-ctr
-- aes-128-cfb8
-- aes-192-cfb8
-- aes-256-cfb8
-- aes-128-cfb1
-- aes-192-cfb1
-- aes-256-cfb1
-- bf-cfb
-- camellia-128-cfb
-- camellia-192-cfb
-- camellia-256-cfb
-- cast5-cfb
-- chacha20
-- idea-cfb
-- rc2-cfb
-- rc4-md5
-- salsa20
-- seed-cfb
+For supported ciphers, please refer to [Cipher](https://shadowsocks.org/en/spec/cipher.html) page in shadowsocks.org.
 
 Installing `M2Crypto` will make encryption a little faster.
 
@@ -54,11 +29,12 @@ salsa20 and chacha20
 
 Install [libsodium](https://github.com/jedisct1/libsodium) >= 1.0.0 if you want to use them.
 
-    apt-get install build-essential
-    wget https://github.com/jedisct1/libsodium/releases/download/1.0.1/libsodium-1.0.1.tar.gz
-    tar xf libsodium-1.0.1.tar.gz && cd libsodium-1.0.1
-    ./configure && make -j2 && make install
-    ldconfig
+    sudo apt-get install build-essential
+    wget https://github.com/jedisct1/libsodium/releases/download/1.0.8/libsodium-1.0.8.tar.gz
+    tar xf libsodium-1.0.8.tar.gz && cd libsodium-1.0.8
+    ./configure && make -j2
+    sudo make install
+    sudo ldconfig
 
 Deprecated Ciphers
 ==================
