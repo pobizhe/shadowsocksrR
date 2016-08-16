@@ -11,7 +11,8 @@ Workers           |     Y     |      N      |      N
 Graceful Restart  |     Y     |      N      |      N   
 ss-redir          |     N     |      Y      |      N   
 ss-tunnel         |     N     |      Y      |      N   
-UDP Relay         |     Y     |      Y      |      N    
+UDP Relay         |     Y     |      Y      |      Y
+OTA               |     Y     |      Y      |      Y   
 
 ## Clients
 
